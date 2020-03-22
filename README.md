@@ -4,10 +4,10 @@ Please only start working on this repo if you finished the material on the prep 
 
 ## Notice
 
-** Pleas eMake sure that you fork this repo **
-** Clone the forked repo from your Profile ** 
-** Solve the exercises **
-** git commit -a -m 'commit message' **
-** git push **
-** Go to the repo you have forked and create a new pull request from there **
-** Make sure that you want to request us to pull your changes and put them inside your branch **
+1. ** Pleas Make sure that you fork this repo **
+2. ** Clone the forked repo from your Profile ** 
+3. ** Solve the exercises **
+4. ** git commit -a -m 'commit message' **
+5. ** git push **
+6. ** Go to the repo you have forked and create a new pull request from there **
+7. ** Make sure that you want to request us to pull your changes and put them inside your branch **
