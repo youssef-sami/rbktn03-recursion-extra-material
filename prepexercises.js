@@ -4,13 +4,15 @@
 
 //  function sum(n) {
 //  // 
-function sum(n){
-	var result = 0;
-	while(n>0){
-		result = result + n;
-		n = n-1;
-	}
-	return result;
+function sum (n) {
+
+if (n === 0) {
+
+	return 0;
+}
+
+return n + sum(n - 1);
+
 }
 
 //  }
@@ -45,12 +47,12 @@ function factorial(num) {
 //  function repeatString(str, count) {
 //  // TODO: 
 function repeatString(str,count){
-	var result = '' ;
-	while (count > 0) {
-	result = result + str;
-	count = count-1
+	if (count === 0) {
+
+	return '';
 }
-  return result;
+
+return str + repeatString(str, count - 1);
 }
 //  }
 //  repeatString('dog', 0); // => ''
