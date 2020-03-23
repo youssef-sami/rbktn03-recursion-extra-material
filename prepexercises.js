@@ -86,6 +86,14 @@ function fib(n) {
 
 
 // 5.Write function that multiply the number by 10 n time
+function multiplyBy10(a,b) {
+	if (b>1) {
+		return 10*multiplyBy10(a,b-1)
+	}
+	else{
+		return a;
+	}
+}
 
 //  multiplyBy10(number, n)
 //  multiplyBy10(4,3) => 4000
